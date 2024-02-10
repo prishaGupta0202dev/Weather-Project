@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="new.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/solid.min.css"
+        integrity="sha512-bdTSJB23zykBjGDvyuZUrLhHD0Rfre0jxTd0/jpTbV7sZL8DCth/88aHX0bq2RV8HK3zx5Qj6r2rRU/Otsjk+g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div id="actions">
+            <div>
+                <i class="fas fa-home"></i>
+            </div>
+            <div>
+                <i class="fas fa-bell"></i>
+            </div>
+            <div id="location">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>australia</span>
+            </div>
+        </div>
+        <div id="searchdiv">
+            <i class="fas fa-search"></i>
+            <input type="text" name="" id="search" placeholder="search city...">
+        </div>
+        <div id="profile">
+            <div id="cycle">
+                <div><i class="fas fa-sun"></i></div>
+                <div id="day">
+                    <i class="fas fa-moon"></i>
+                </div>
+            </div>
+            <div>
+                <img src="https://w7.pngwing.com/pngs/140/571/png-transparent-snapchat-youtube-android-the-hobbit-snapchat-face-head-cartoon.png"
+                    alt="">
+            </div>
+        </div>
+    </header>
+    <div id="firsthalf">
+        <div id="left">
+            <div id="head">
+                <div>
+                    <div>today</div>
+                    <div>tomorrow</div>
+                    <div id="day7">Next 7 days</div>
+                </div>
+                <div id="type">
+                    <div id="air">forcast</div>
+                    <div >air quality</div>
+                </div>
+            </div>
+            <div id="dayscontent">
+                <div id="monday">
+                    <div id="mondayheader">
+                        <div>
+                            Monday
+                        </div>
+                        <div>
+                            11:42
+                        </div>
+                    </div>
+                    <div>
+                        <div id="mondayleft">
+                            <div id="temp">
+                                <span>
+                                    16°
+                                </span>
+                            </div>
+                            <div id="bottomleft">
+                                <div>
+                                    <span class="key">real feel</span>
+                                    <span class="value">18°</span>
+                                </div>
+                                <div>
+                                    <span class="key">
+                                        wind N.E
+                                    </span>
+                                    <span class="value">5-8 km/h</span>
+                                </div>
+                                <div>
+                                    <span class="key">
+                                        pressure
+                                    </span>
+                                    <span class="value">
+                                        1000MB
+                                    </span>
+                                </div>
+                                <div>
+                                    <span class="key">humidity</span>
+                                    <span class="value">51%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="mondayright">
+                            <div>
+                                <img src="./weather-removebg-preview.png" alt="">
+                            </div>
+                            <div>
+                                <div>
+                                    <span class="key">
+                                        sunrise
+                                    </span>
+                                    <span class="value">8:02AM</span>
+                                </div>
+                                <div>
+                                    <span class="key">
+                                        sunset
+                                    </span>
+                                    <span class="value">
+                                        9:18PM
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="weekdays">
+                    <span class="day1"> Tue</span>
+                    <img src="./ray.jpeg " alt="">
+                    <span class="temp">10°</span>
+                </div>
+                <div class="weekdays">
+                    <span class="day1"> Wed</span>
+                    <img src="./day-removebg-preview.png" alt="">
+                    <span class="temp">15°</span>
+                </div>
+                <div class="weekdays">
+                    <span class="day1">Thu</span>
+                    <img src="./day-removebg-preview.png" alt="">
+                    <span class="temp">11°</span>
+                </div>
+                <div class="weekdays">
+                    <span class="day1"> Fri</span>
+                    <img src="./day-removebg-preview.png" alt="">
+                    <span class="temp">18°</span>
+                </div>
+                <div class="weekdays">
+                    <span class="day1">Sat</span>
+                    <img src="./light-removebg-preview.png" alt="">
+                    <span class="temp">12°</span>
+                </div>
+                <div class="weekdays">
+                    <span class="day1">
+                        Sun</span>
+                    <img src="./light-removebg-preview.png" alt="">
+                    <span class="temp">10°</span>
+                </div>
+            </div>
+        </div>
+        <div id="right">
+            <div>chance of rain</div>
+            <div id="graph">
+                <img src="./img.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="secondhalf">
+
+        <div id="left1">
+            <div id="headleft">
+                <div id="lefthead1">
+                    <div>Global map</div>
+                    <div id="map">
+                        <div>view wide</div>
+                        <div><i class="fas fa-ellipsis-v"></i></div>
+                    </div>
+                </div>
+                <div id="worldmap">
+                    <img src="./map.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+        <div id="right1">
+            <div id="headright">
+                <div>Other large cities</div>
+                <div id="show">
+                    <div>Show All</div>
+                    <div><i class="fas fa-angle-right"></i></div>
+                </div>
+            </div>
+            <div id="cards">
+                <div class="card">
+                    <div class="leftcard">
+                        <div>US</div>
+                        <div>California</div>
+                        <div>Mostly Sunny</div>
+                    </div>
+                    <div class="rightcard">
+                        <div>
+                            <img src="./day-removebg-preview.png" alt="">
+                        </div>
+                        <div>
+                            29°
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="leftcard">
+                        <div>China</div>
+                        <div> Bejing</div>
+                        <div>Cloudy</div>
+                    </div>
+                    <div class="rightcard">
+                        <div><img src="./light-removebg-preview.png" alt=""></div>
+                        <div>19°</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="leftcard">
+                        <div>Isreal</div>
+                        <div>Jerusalem</div>
+                        <div>Sunny</div>
+                    </div>
+                    <div class="rightcard">
+                        <div><img src="./ray-removebg-preview.png" alt=""></div>
+                        <div>31°</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
